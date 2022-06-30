@@ -2,7 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import Firebase from './Firebase';
+
 function App() {
+  console.log(Firebase.options);
+  
   return (
     <div className="App">
       <header className="App-header">
